@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Tektur:wght@400;500;600&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Tektur', cursive;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 100vh;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: #000000;
+  color: #fff;
+  height: 60px;
+  font-size: 2rem;
+}
+
+.user-list ul {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.user-list ul li {
+  list-style: none;
+}
+
+.single-user {
+  display: flex;
+  align-items: center;
+  min-width: 400px;
+  background-color: #000000;
+  border-radius: 10px;
+  margin: 20px;
+  padding: 10px;
+  color: #fff;
+  font-size: 1rem;
+}
+
+.single-user img {
+  margin-right: 20px;
+  border-radius: 50%;
+  width: 100px;
+}
+
+.single-user h3{
+  color: yellow;
+}
+
+.user-info .icon{
+  margin: 2px;
+}
+
+.user-info .user-mail {
+  margin: 10px 0;
+}
